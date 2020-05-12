@@ -1,7 +1,13 @@
 # GlassFloor
 
 ## Background
-GlassFloor is a website dedicated to the use of machine learning algorithms to track sentiment towards companies, most notably on social media, with the aim of revolutionizing the way companies engage with their customers. It was designed as a final project for the Georgia Tech Data Science and Analysis bootcamp. It's current incarnation can be accessed at [this link](https://www.norstal.com/glassfloor/index.html).
+GlassFloor is a website dedicated to the use of machine learning algorithms to track sentiment towards companies, most notably on social media, with the aim of revolutionizing the way companies engage with their customers. It was designed as a final project for the Georgia Tech Data Science and Analysis bootcamp. It's current incarnation can be accessed at [this link](https://www.norstal.com/glassfloor/index.html). Contributors to the project include:
+* [amandapfitz](https://github.com/amandapfitz)
+* [cecind123](https://github.com/cecind123)
+* [gifford1988](https://github.com/gifford1988)
+* [fayyazj](https://github.com/fayyazj)
+* [faradical](https://github.com/faradical)
+* [housefriedrice](https://github.com/housefriedrice)
 
 ## How it works
 Taken from the website:
