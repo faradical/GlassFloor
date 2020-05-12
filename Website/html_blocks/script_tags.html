@@ -1,0 +1,61 @@
+<!--   BEGIN SCRIPT TAGS   -->
+<!-- js -->
+<!--/slider-->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/modernizr-2.6.2.min.js"></script>
+<!--//slider-->
+<!--search jQuery-->
+<script src="js/classie-search.js"></script>
+<script src="js/demo1-search.js"></script>
+<!--//search jQuery-->
+
+<script>
+    $(document).ready(function() {
+        $(".dropdown").hover(
+            function() {
+                $('.dropdown-menu', this).stop(true, true).slideDown("fast");
+                $(this).toggleClass('open');
+            },
+            function() {
+                $('.dropdown-menu', this).stop(true, true).slideUp("fast");
+                $(this).toggleClass('open');
+            }
+        );
+    });
+</script>
+<!-- //dropdown nav -->
+
+<!-- //js -->
+<script src="js/bootstrap.js"></script>
+<!--/ start-smoth-scrolling -->
+<script src="js/move-top.js"></script>
+<script src="js/easing.js"></script>
+<script>
+    jQuery(document).ready(function($) {
+        $(".scroll").click(function(event) {
+            event.preventDefault();
+            $('html,body').animate({
+                scrollTop: $(this.hash).offset().top
+            }, 900);
+        });
+    });
+</script>
+<script>
+    $(document).ready(function() {
+        /*
+        						var defaults = {
+        							  containerID: 'toTop', // fading element id
+        							containerHoverID: 'toTopHover', // fading element hover id
+        							scrollSpeed: 1200,
+        							easingType: 'linear' 
+        						 };
+        						*/
+
+        $().UItoTop({
+            easingType: 'easeOutQuart'
+        });
+
+    });
+</script>
+<!--// end-smoth-scrolling -->
+<!--   END SCRIPT TAGS   -->
